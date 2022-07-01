@@ -165,7 +165,8 @@
 @media screen and (max-width: 850px) {
   .mintInfoContainer {
     flex-direction: column-reverse;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
 
   .infoSide {
