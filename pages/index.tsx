@@ -99,7 +99,7 @@ const Home: NextPage = () => {
           <img
         src="/logo.png"
         alt="thirdweb Logo"
-        width={400}
+        width={320}
         className={styles.buttonGapTop}
       />
         </div>
