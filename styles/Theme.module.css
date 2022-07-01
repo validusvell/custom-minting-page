@@ -164,8 +164,8 @@
 /* On mobile, make the .mintInfoContainer stack vertically */
 @media screen and (max-width: 850px) {
   .mintInfoContainer {
-    flex-direction: column;
-    padding-bottom: 5%;
+    flex-direction: column-reverse;
+    padding-bottom: 10%;
   }
 
   .infoSide {
