@@ -96,6 +96,12 @@ const Home: NextPage = () => {
           <h1>{contractMetadata?.name}</h1>
           {/* Description of your NFT Collection */}
           <p className={styles.description}>{contractMetadata?.description}</p>
+          <img
+        src="/logo.png"
+        alt="thirdweb Logo"
+        width={400}
+        className={styles.buttonGapTop}
+      />
         </div>
 
         <div className={styles.imageSide}>
@@ -216,12 +222,6 @@ const Home: NextPage = () => {
         </div>
       </div>
       {/* Powered by thirdweb */}{' '}
-      <img
-        src="/logo.png"
-        alt="thirdweb Logo"
-        width={600}
-        className={styles.buttonGapTop}
-      />
     </div>
   );
 };
