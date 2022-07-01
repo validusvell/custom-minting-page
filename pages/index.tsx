@@ -18,7 +18,7 @@ import { useState } from 'react';
 import styles from '../styles/Theme.module.css';
 
 // Put Your NFT Drop Contract address from the dashboard here
-const myNftDropContractAddress = '0x322067594DBCE69A9a9711BC393440aA5e3Aaca1';
+const myNftDropContractAddress = '0x951351d0A39801B6FEb2Fdd5cd0392A946cb4386';
 
 const Home: NextPage = () => {
   const nftDrop = useNFTDrop(myNftDropContractAddress);
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
   // Function to mint/claim an NFT
   const mint = async () => {
     if (isOnWrongNetwork) {
-      switchNetwork && switchNetwork(ChainId.Mumbai);
+      switchNetwork && switchNetwork(ChainId.Mainnet);
       return;
     }
 
